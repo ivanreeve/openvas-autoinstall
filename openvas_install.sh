@@ -2,6 +2,7 @@
 
 # Run as superuser, example: sudo ./openvas_install.sh
 
+sudo apt install -y nmap
 sudo apt install -y openvas
 sudo apt install -y gvm
 mkdir -p /tmp/openvas-autoinstall/
