@@ -14,4 +14,4 @@ echo "[LOG] Nmap, Openvas successfully installed, running gvm-setup now"
 sudo gvm-setup
 "[LOG] Running gvm-check-setup now"
 sudo gvm-check-setup
-"[LOG] DONE. If there is no error, you can run: sudo gvm-start to access the web panel."
+echo "[LOG] DONE. If there is no error, you can run: sudo gvm-start to access the web panel."
