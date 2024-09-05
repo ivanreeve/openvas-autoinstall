@@ -15,4 +15,4 @@ sudo gvm-setup
 echo -e "\n\n\e[1;32m[LOG] Running gvm-check-setup now\n\n\e[0m"
 sudo gvm-check-setup
 sudo gvm-stop
-echo -e "\n\n\e[1;32m[LOG] DONE. If there is no error, you can run: sudo gvm-start to access the web panel.\n\n\e[0m"
+echo -e "\n\n\e[1;32m[LOG] DONE. If there is no error, you can run: sudo gvm-start to access the web interface.\n\n\e[0m"
