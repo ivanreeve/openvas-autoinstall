@@ -10,7 +10,7 @@ mkdir -p /tmp/openvas-autoinstall/
 curl -L https://github.com/greenbone/gsa/releases/download/v22.8.0/gsa-dist-22.8.0.tar.gz -o /tmp/openvas-autoinstall/gsa-dist-22.8.0.tar.gz
 sudo tar -xzf /tmp/openvas-autoinstall/gsa-dist-22.8.0.tar.gz -C /usr/share/gvm/gsad/web/
 sudo rm -rf /tmp/openvas-autoinstall/
-echo "[LOG] Openvas successfully installed, running gvm-setup now"
+echo "[LOG] Nmap, Openvas successfully installed, running gvm-setup now"
 sudo gvm-setup
 "[LOG] Running gvm-check-setup now"
 sudo gvm-check-setup
