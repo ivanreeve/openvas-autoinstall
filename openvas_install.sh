@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# terminal script: curl -s https://raw.githubusercontent.com/ivanreeve/openvas-autoinstall/main/openvas_install.sh | bash
 # Tested on Linux Mint, as of September 5, 2024
 # Run as superuser, example: sudo ./openvas_install.sh
 
